@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log_in page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font-awasome-link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- responsive-css --------------->
+    <link rel="stylesheet" href="assests/css/login-responsive.css">
+    <!-- custom-css ------------------>
+    <link rel="stylesheet" href="assests/css/port.css">
+
+
+</head>
+<body>
+    
+    <div class="container-fluid form">
+        <div class="form-start">
+            <div class="form-box login">
+                <form class="login-form" action="">
+                    <h1 class="fs-35 m">Login</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="UserName" required>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="password" required>
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="forgot-link">
+                        <a href="#" class="wht-clr">Forgot Password</a>
+                    </div>
+                    <button type="submit" class="main-bg-clr btn wht-clr fw-600 mt-20">Login</button>
+                    <p>Or login with social platform</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </form>
+            </div>
+
+            <!-- registration-part ---------->
+            <div class="form-box register">
+                <form class="login-form" action="">
+                    <h1 class="fs-35">Registration</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="UserName" required>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" placeholder="Enter Your email" required>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="password" required>
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="forgot-link">
+                        <a href="#">Forgot Password</a>
+                    </div>
+                    <button type="submit" class="btn wht-clr fw-600 mt-20">Register</button>
+                    <p>Or login with social platform</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </form>
+            </div>
+
+            <!-- togglar-part ---------->
+             <div class="toggle-box">
+                <div class="toggle-panel toggle-left">
+                    <h1 class="wht-clr">Hello, Welcome</h1>
+                    <p class="wht-clr">Don't have an account</p>
+                    <button class="btn register-btn wht-clr d-flex align-items-center justify-content-center">Register</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1 class="wht-clr">Welcome Back</h1>
+                    <p class="wht-clr">Already have an account</p>
+                    <button class="btn login-btn wht-clr d-flex align-items-center justify-content-center">login</button>
+                </div>
+             </div>
+        </div>
+    </div>
+
+
+
+<!-- script-start ------------------------------------------------------->
+<!-- slick-plugin ------------------------->
+<script src="../assests/js/login.js"></script>
+
+<!-- bootstarp-start ----------------------->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+    /* toggle-log-in ---------*/
+@media screen and (max-width: 650px){
+    .form-start {
+        height: calc(100vh - 20px) !important;
+    }
+    .form-box {
+        background: purple;
+        bottom: 0;
+        width: 100%!important;
+        height: 70%!important;
+    }
+    .form-start.active .form-box {
+        right: 0 !important;
+        bottom: 30%;
+    }
+    .toggle-box::before{
+        left: 0!important;
+        top: -270%;
+        width: 100%!important;
+        height: 300%!important;
+    }
+    .form-start.active .toggle-box::before {
+        left: 0 !important;
+        top: 70%;
+    }
+    .toggle-panel{
+        width: 100%;
+        height: 30%;
+    }
+    .toggle-panel.toggle-left {
+        top: -34%;
+        width: 100%;
+    }
+    .form-start.active .toggle-panel.toggle-left {
+        left: -100% !important;
+        top: -50%;
+        width: 100%;
+    }
+    .form-start.active .toggle-panel.toggle-right {
+        bottom: -317px;
+        width: 100%;
+    }
+    .toggle-panel.toggle-right{
+        right: 0;
+        bottom: -30%;
+    }
+}
+@media screen and (min-width: 851px){
+    .form-start{
+        width: 80%!important;
+    }
+}

@@ -1,0 +1,133 @@
+@media screen and (max-width: 480px){
+    .up-header h3{
+        font-size: 15px;
+        text-align: center!important;
+        padding: 11px 0;
+    }
+    .banner-header-menu{
+        display: contents;
+        margin-bottom: 30px;
+    }
+    .nav-icon{
+        font-size: 18px!important;
+    }
+    .bnr-text{
+        font-size: 12px;
+    }
+    .book-apponintment{
+        transform: translateY(0)!important;
+    }
+    .book-apponintment h2{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .cmn-treatment-patr{
+        margin-bottom: 25px;
+        border: 1px solid #faf7f7;
+        border-radius: 5%;
+        padding: 3.5%;
+    }
+    .about-hospital-img-part{
+        margin-top: 40px;
+    }
+    .doctor-part{
+        border-radius: 30px!important;
+    }
+    .subs-part{
+        width: 100%!important;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 650px){
+    .up-header h3{
+        text-align: center!important;
+        padding: 11px 0;
+    }
+    .banner-header-menu{
+        display: contents;
+    }
+    .book-apponintment{
+        transform: translateY(0) !important;
+        box-shadow: 0px 0px 4px 3px #e1e0e0;
+        margin: 5% 0;
+    }
+    .cmn-treatment-patr{
+        margin-bottom: 35px;
+        border: 1px solid #faf7f7;
+        border-radius: 5%;
+        padding: 3.5%;
+    }
+    .about-hospital-img-part{
+        margin-top: 40px;
+    }
+    .doctor-part{
+        border-radius: 30px!important;
+    }
+    .subs-part{
+        width: 100%!important;
+    }
+
+    /* toggle-log-in ---------*/
+    .form-start{
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 808px){
+    .up-header h3{
+        text-align: center!important;
+        padding: 11px 0;
+        font-size: 13px;
+    }
+    .banner-header-menu{
+        display: contents;
+    }
+    .book-apponintment{
+        transform: translateY(0) !important;
+        box-shadow: 0px 0px 4px 3px #e1e0e0;
+        margin: 5% 0;
+    }
+     .cmn-treatment-patr{
+        margin-bottom: 25px;
+        border: 1px solid #faf7f7;
+        border-radius: 5%;
+        padding: 3.5%;
+    }
+    .about-hospital-img-part{
+        margin-top: 40px;
+    }
+    .subs-part{
+        width: 100%!important;
+    }
+}
+@media screen and (min-width: 809px) and (max-width: 990px){
+    .up-header h3{
+        font-size: 15px;
+    }
+    .banner-header-menu{
+        display: contents;
+    }
+    .nav-icon{
+        font-size: 25px!important;
+    }
+    .book-apponintment{
+        transform: translateY(0) !important;
+        box-shadow: 0px 0px 4px 3px #e1e0e0;
+        margin: 5% 0;
+    }
+    .cmn-treatment-patr{
+        margin-bottom: 25px;
+        border: 1px solid #faf7f7;
+        border-radius: 5%;
+        padding: 3.5%;
+    }
+}
+@media screen and (min-width: 991px) and (max-width: 1245px){
+    .up-header h3{
+        font-size: 12px;
+    }
+    .book-apponintment{
+        transform: translateY(0) !important;
+        box-shadow: 0px 0px 4px 3px #e1e0e0;
+        margin: 5% 0;
+    }
+}
